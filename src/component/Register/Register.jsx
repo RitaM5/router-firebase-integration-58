@@ -1,12 +1,9 @@
 import React from 'react';
-
-const Login = () => {
+import './Register.css'
+const Register = () => {
     return (
         <div>
-            <h2>Please Login</h2>
-            <div style={{margin:"20px"}}>
-                <button>Google Sign In</button>
-            </div>
+            <h3>Please Register now</h3>
             <form>
                 <input type="text" placeholder="your name"></input>
                 <br />
@@ -14,10 +11,10 @@ const Login = () => {
                 <br />
                 <input type="password" placeholder="your password"></input>
                 <br />
-                <input type="submit" value="Login"></input>
+                <input type="submit" value="Register"></input>
             </form>
         </div>
     );
 };
 
-export default Login;
+export default Register;
